@@ -16,7 +16,15 @@ public class ProyectoXml {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("pene");
+        
+        String ruta = "DocumentoXml/instalaciones_deportivas.xml";
+    }
+    
+    
+    private static void menu(){
+        System.out.println("1. Mostrar las pedanias donde existen instalaciones deportivas");
+        System.out.println("2. Mostrar todas instalaciones deportivas de una localidad");
+        System.out.println("3. ");
     }
     
 }
