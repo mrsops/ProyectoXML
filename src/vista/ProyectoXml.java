@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyectoxml;
+package vista;
 
 /**
  *
@@ -24,7 +24,8 @@ public class ProyectoXml {
     private static void menu(){
         System.out.println("1. Mostrar las pedanias donde existen instalaciones deportivas");
         System.out.println("2. Mostrar todas instalaciones deportivas de una localidad");
-        System.out.println("3. ");
+        System.out.println("3. Seleccionar una instalacion deportiva: ");
+        System.out.println("4. ");
     }
     
 }
