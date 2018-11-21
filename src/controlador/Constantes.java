@@ -5,9 +5,9 @@
  */
 package controlador;
 
-import modelo.TipoInstalacion;
-import modelo.Instalacion;
-import modelo.InstalacionesDeportivas;
+import entidad.TipoInstalacion;
+import entidad.Instalacion;
+import entidad.InstalacionesDeportivas;
 
 /**
  *

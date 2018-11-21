@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modelo;
+package entidad;
 
 /**
  *
@@ -11,20 +11,20 @@ package modelo;
  */
 public class TipoInstalacion {
 
-    private String idUbicacion;
+    private int idTipo;
     private String uso;
     private String cantidad;
 
-    public TipoInstalacion(String nombre,String uso,String cantidad) {
-        this.idUbicacion = nombre;
+    public TipoInstalacion(int id,String uso,String cantidad) {
+        this.idTipo = id;
     }
 
-    public String getIdUbicacion() {
-        return idUbicacion;
+    public int getIdTipo() {
+        return idTipo;
     }
 
-    public void setIdUbicacion(String id) {
-        this.idUbicacion = id;
+    public void setIdTipo(int id) {
+        this.idTipo = id;
     }
 
     public String getUso() {
@@ -49,7 +49,7 @@ public class TipoInstalacion {
 
     @Override
     public String toString() {
-        return "Tipo{" + "id=" + this.idUbicacion + ", Uso="+this.uso +", cantidad="+this.cantidad +'}';
+        return "Tipo{" + "id=" + this.idTipo + ", Uso="+this.uso +", cantidad="+this.cantidad +'}';
     }
 
 }

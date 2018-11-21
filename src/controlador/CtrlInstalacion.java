@@ -7,8 +7,8 @@ package controlador;
 
 import java.util.ArrayList;
 import javax.xml.soap.Node;
-import modelo.TipoInstalacion;
-import modelo.Instalacion;
+import entidad.TipoInstalacion;
+import entidad.Instalacion;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -55,11 +55,10 @@ public class CtrlInstalacion extends ControlDom {
         book.appendChild(price);
     }
 
-    /* MODIFICAR
+/*
     public ArrayList<TipoInstalacion> leerTiposInstalacion(Element eAutores) { 
         Constantes cons = new Constantes();
         ArrayList<TipoInstalacion> autores = new ArrayList<>();
-        Element pruba;
         NodeList nodeListAutores = eAutores.getElementsByTagName(cons.ET_AUTOR);
         for (int i = 0; i < nodeListAutores.getLength(); i++) {
             TipoInstalacion autor = new TipoInstalacion(nodeListAutores.item(i).getTextContent());
@@ -68,7 +67,6 @@ public class CtrlInstalacion extends ControlDom {
         return autores;
     }
 */
-
     public void escribirTiposInstalacion(Document doc, Element eAutores, Instalacion b) {
         Constantes cons = new Constantes();
 
