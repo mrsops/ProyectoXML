@@ -8,7 +8,6 @@ package entidad;
 import java.util.ArrayList;
 
 /**
- *
  * @author Carlos
  */
 public class InstalacionesDeportivas extends ArrayList<Instalacion> {

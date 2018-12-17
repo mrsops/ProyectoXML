@@ -8,43 +8,49 @@ package entidad;
 import java.util.ArrayList;
 
 /**
- *
  * @author Carlos
  */
 public class Instalacion {
-    private int idInstalacion;
-    private ArrayList<TipoInstalacion> tiposInstalacion=new ArrayList<>();
+    private String idInstalacion;
+    private SubInstalaciones subInstalaciones;
     private String pedania;
     private String lugar;
     private String longitud;
     private String latitud;
 
-    public Instalacion(int instID, String pedania, String lugar, String longitud, String latitud) {
+    public Instalacion(String instID, String pedania, String lugar, String longitud, String latitud, SubInstalaciones subInstalaciones) {
         this.idInstalacion = instID;
         this.pedania = pedania;
         this.lugar = lugar;
-        this.latitud=latitud;
+        this.latitud = latitud;
         this.longitud = longitud;
-        
-    }
-    public Instalacion(){}
+        this.subInstalaciones = subInstalaciones;
 
-
-    public ArrayList<TipoInstalacion> getTiposInstalaciones() {
-        return tiposInstalacion;
     }
 
-    public int getIdInstalacion() {
+    public Instalacion() {
+    }
+
+
+    public ArrayList<SubInstalacion> getTiposInstalaciones() {
+        return subInstalaciones;
+    }
+
+    public String getIdInstalacion() {
         return idInstalacion;
     }
 
-    public void setIdInstalacion(int instalacionID) {
+    public void setIdInstalacion(String instalacionID) {
         this.idInstalacion = instalacionID;
     }
 
 
-    public void setTiposInstalacion(ArrayList<TipoInstalacion> tiposInstalacion) {
-        this.tiposInstalacion = tiposInstalacion;
+    public void setSubInstalaciones(SubInstalaciones subInstalaciones) {
+        this.subInstalaciones = subInstalaciones;
+    }
+
+    public SubInstalaciones getSubInstalaciones() {
+        return subInstalaciones;
     }
 
     public String getPedania() {
@@ -78,15 +84,12 @@ public class Instalacion {
     public void setLatitud(String latitud) {
         this.latitud = latitud;
     }
-    
-    
+
 
     @Override
     public String toString() {
-        return "Instalacion{" + ", titulo=" + idInstalacion + ", TiposInstalacion=" + tiposInstalacion + ", a\u00f1o=" + pedania + ", precio=" + lugar + '}';
+        return "Instalacion{" + ", titulo=" + idInstalacion + ", TiposInstalacion=" + subInstalaciones + ", a\u00f1o=" + pedania + ", precio=" + lugar + '}';
     }
-    
-    
-    
-    
+
+
 }

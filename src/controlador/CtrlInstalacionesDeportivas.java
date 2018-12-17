@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
+
 import entidad.Instalacion;
 import entidad.InstalacionesDeportivas;
 import org.w3c.dom.Document;
@@ -20,7 +21,6 @@ import org.xml.sax.SAXException;
 import controlador.Constantes.*;
 
 /**
- *
  * @author Carlos
  */
 public class CtrlInstalacionesDeportivas extends ControlDom {
@@ -63,7 +63,7 @@ public class CtrlInstalacionesDeportivas extends ControlDom {
             //if (bs.get(i).getCover() != "") {
             //    instalacion.setAttribute("cover", bs.get(i).getCover());
             //}
-            cInstalacion.escribirInstalacion(doc, instalacion, insDep.get(i));
+            //cInstalacion.escribirInstalacion(doc, instalacion, insDep.get(i));
         }
     }
 

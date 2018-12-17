@@ -6,24 +6,26 @@
 package entidad;
 
 /**
- *
  * @author Carlos
  */
-public class TipoInstalacion {
+public class SubInstalacion {
 
-    private int idTipo;
+    private String idTipo;
     private String uso;
     private String cantidad;
 
-    public TipoInstalacion(int id,String uso,String cantidad) {
+    public SubInstalacion() {
+    }
+
+    public SubInstalacion(String id, String uso, String cantidad) {
         this.idTipo = id;
     }
 
-    public int getIdTipo() {
+    public String getIdTipo() {
         return idTipo;
     }
 
-    public void setIdTipo(int id) {
+    public void setIdTipo(String id) {
         this.idTipo = id;
     }
 
@@ -42,14 +44,11 @@ public class TipoInstalacion {
     public void setCantidad(String cantidad) {
         this.cantidad = cantidad;
     }
-    
-    
-    
-    
+
 
     @Override
     public String toString() {
-        return "Tipo{" + "id=" + this.idTipo + ", Uso="+this.uso +", cantidad="+this.cantidad +'}';
+        return "Tipo{" + "id=" + this.idTipo + ", Uso=" + this.uso + ", cantidad=" + this.cantidad + '}';
     }
 
 }

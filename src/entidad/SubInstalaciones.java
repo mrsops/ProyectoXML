@@ -1,4 +1,7 @@
 package entidad;
 
-public class SubInstalaciones {
+import java.util.ArrayList;
+
+public class SubInstalaciones extends ArrayList<SubInstalacion> {
+
 }

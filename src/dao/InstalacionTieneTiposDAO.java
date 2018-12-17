@@ -6,16 +6,18 @@
 package dao;
 
 import entidad.Instalacion;
-import entidad.TipoInstalacion;
+import entidad.SubInstalacion;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- *
  * @author mrsops
  */
 public class InstalacionTieneTiposDAO {
+    /*
+
     public void insertar(Connection con, Instalacion instalacion) throws Exception{
         PreparedStatement stmt=null;
         
@@ -28,8 +30,8 @@ public class InstalacionTieneTiposDAO {
             stmt.setString(5, instalacion.getLatitud());
             stmt.executeUpdate();
             
-            for(TipoInstalacion tI : instalacion.getTiposInstalaciones()){
-                stmt=con.prepareStatement("INSERT INTO TipoInstalacion ( Uso ) VALUES(?)");
+            for(SubInstalacion tI : instalacion.getTiposInstalaciones()){
+                stmt=con.prepareStatement("INSERT INTO SubInstalacion ( Uso ) VALUES(?)");
                 stmt.setString(1, tI.getUso());
                 stmt.executeUpdate();
                 
@@ -49,4 +51,6 @@ public class InstalacionTieneTiposDAO {
             }
         }
     }
+
+    */
 }

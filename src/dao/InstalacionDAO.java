@@ -8,16 +8,18 @@ package dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 import entidad.Instalacion;
-import entidad.TipoInstalacion;
+import entidad.SubInstalacion;
+
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
 /**
- *
  * @author mrsops
  */
 public class InstalacionDAO {
+    /*
     
     public void actualiza(Connection con, Instalacion  instalacion) throws Exception{
         PreparedStatement stmt=null;
@@ -59,8 +61,8 @@ public class InstalacionDAO {
             stmt.setString(5, instalacion.getLatitud());
             stmt.executeUpdate();
             
-            for(TipoInstalacion tI : instalacion.getTiposInstalaciones()){
-                stmt=con.prepareStatement("INSERT INTO TipoInstalacion ( Uso ) VALUES(?)");
+            for(SubInstalacion tI : instalacion.getTiposInstalaciones()){
+                stmt=con.prepareStatement("INSERT INTO SubInstalacion ( Uso ) VALUES(?)");
                 stmt.setString(1, tI.getUso());
                 stmt.executeUpdate();
                 
@@ -168,5 +170,5 @@ public class InstalacionDAO {
         instalacion.setLongitud(rs.getString("Longitud"));
         instalacion.setLatitud(rs.getString("Latitud"));
     }
-    
+    */
 }

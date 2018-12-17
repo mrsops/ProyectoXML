@@ -16,13 +16,13 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
 /**
- *
  * @author Carlos
  */
 public class ControlDom {
@@ -32,11 +32,12 @@ public class ControlDom {
 
     /**
      * Lee de un archivo XML y devuelve un Document listo para ser tratado
+     *
      * @param archivo
      * @return
      * @throws SAXException
      * @throws IOException
-     * @throws ParserConfigurationException 
+     * @throws ParserConfigurationException
      */
     public Document deXMLaDOM(File archivo) throws SAXException, IOException, ParserConfigurationException {
         Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(archivo);
@@ -46,9 +47,10 @@ public class ControlDom {
 
     /**
      * Lee de la clase Document y pasa su contenido a archivo xml con arbol de nodos
+     *
      * @param doc
      * @param file
-     * @throws TransformerException 
+     * @throws TransformerException
      */
     public void deDOMaXML(Document doc, File file) throws TransformerException {
         Transformer trans = TransformerFactory.newInstance().newTransformer();
@@ -60,17 +62,18 @@ public class ControlDom {
 
     /**
      * Crea una instancia de documento vacio, listo para poder escribir en el
+     *
      * @return
      * @throws ParserConfigurationException
-     * @throws ParserConfigurationException 
+     * @throws ParserConfigurationException
      */
     public Document instanciarDocumento() throws ParserConfigurationException, ParserConfigurationException {
-        Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
-        return doc;
+        return DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
     }
 
     /**
      * Metodo que devuelve el contenido de una etiqueta
+     *
      * @param etiqueta
      * @param item
      * @return Valor devuelto en forma de string con el contenido de una etiqueta
@@ -82,12 +85,13 @@ public class ControlDom {
 
     /**
      * Metodo que devuelve el contenido de un atributo de un etiqueta
+     *
      * @param atributo Atributo que queremos leer
-     * @param item Elemento que contiene al atributo
+     * @param item     Elemento que contiene al atributo
      * @return Valor en forma de string que sera devuelto
      */
     public static Element getElementEtiqueta(String atributo, Element item) {
         return (Element) item.getElementsByTagName(atributo).item(0);
     }
-    
+
 }

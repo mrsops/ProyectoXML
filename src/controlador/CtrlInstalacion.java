@@ -5,16 +5,15 @@
  */
 package controlador;
 
-import java.util.ArrayList;
-import javax.xml.soap.Node;
-import entidad.TipoInstalacion;
 import entidad.Instalacion;
+import entidad.SubInstalacion;
+import entidad.SubInstalaciones;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 /**
- *
  * @author Carlos
  */
 public class CtrlInstalacion extends ControlDom {
@@ -22,19 +21,23 @@ public class CtrlInstalacion extends ControlDom {
     public CtrlInstalacion() {
     }
 
-    public Instalacion leerInstalacion(Document doc, Element book) {
-        Instalacion libro = new Instalacion();
+    public Instalacion leerInstalacion(Document doc, Element instalacion) {
+        Instalacion ins = new Instalacion();
         Constantes cons = new Constantes();
         String titulo, autor, año, precio;
-        libro.setAño(getValorEtiqueta(cons.ET_AUTOR, book));
-        libro.setPrecio(getValorEtiqueta(cons.ET_PRECIO, book));
-        libro.setTitulo(getValorEtiqueta(cons.ET_TITULO, book));
+        ins.setIdInstalacion(getValorEtiqueta(cons.ET_ID_INSTALACION, instalacion));
+        ins.setPedania(getValorEtiqueta(cons.ET_PEDANIA, instalacion));
+        ins.setLugar(getValorEtiqueta(cons.ET_LUGAR, instalacion));
+        ins.setLatitud(getValorEtiqueta(cons.ET_LATITUD, instalacion));
+        ins.setLongitud(getValorEtiqueta(cons.ET_LONGITUD, instalacion));
+        SubInstalaciones subs = new SubInstalaciones();
+        subs = leerSubInstalaciones(doc, instalacion);
+        ins.setSubInstalaciones(subs);
 
-        Element eAutores = getElementEtiqueta(cons.ET_AUTORES, book);
-       // libro.setAutores(leerTiposInstalacion(eAutores)); MODIFICAR
-        return libro;
+        return ins;
     }
 
+    /*
     public void escribirInstalacion(Document doc, Element book, Instalacion libro) {
         Constantes cons = new Constantes();
 
@@ -54,19 +57,26 @@ public class CtrlInstalacion extends ControlDom {
         price.appendChild(doc.createTextNode(libro.getPrecio()));
         book.appendChild(price);
     }
-
-/*
-    public ArrayList<TipoInstalacion> leerTiposInstalacion(Element eAutores) { 
-        Constantes cons = new Constantes();
-        ArrayList<TipoInstalacion> autores = new ArrayList<>();
-        NodeList nodeListAutores = eAutores.getElementsByTagName(cons.ET_AUTOR);
-        for (int i = 0; i < nodeListAutores.getLength(); i++) {
-            TipoInstalacion autor = new TipoInstalacion(nodeListAutores.item(i).getTextContent());
-            autores.add(autor);
-        }
-        return autores;
-    }
 */
+
+    public SubInstalaciones leerSubInstalaciones(Document doc, Element instalacion) {
+        Constantes cons = new Constantes();
+        SubInstalaciones subInsLista = new SubInstalaciones();
+
+        NodeList listaSubInstalaciones = instalacion.getElementsByTagName(cons.ET_SUBINSTALACION);
+        CtrlSubInstalacion ctrlSubInstalacion = new CtrlSubInstalacion();
+
+        for (int i = 0; i < listaSubInstalaciones.getLength(); i++) {
+            if (listaSubInstalaciones.item(i).getNodeType() == Node.ELEMENT_NODE) {
+                SubInstalacion si = ctrlSubInstalacion.leerSubInstalacion(doc, (Element) listaSubInstalaciones.item(i));
+                System.out.println("Leida instalación:  " + si.toString());
+                subInsLista.add(si);
+            }
+        }
+        return subInsLista;
+    }
+
+    /*
     public void escribirTiposInstalacion(Document doc, Element eAutores, Instalacion b) {
         Constantes cons = new Constantes();
 
@@ -76,5 +86,7 @@ public class CtrlInstalacion extends ControlDom {
             eAutores.appendChild(autor);
         }
     }
+
+    */
 
 }
