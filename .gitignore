@@ -8,3 +8,5 @@ build\.xml
 manifest\.mf
 
 \.idea/
+\out/
+ProyectoXML\.iml

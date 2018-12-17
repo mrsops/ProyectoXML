@@ -12,29 +12,27 @@ import java.util.ArrayList;
  */
 public class Instalacion {
     private String idInstalacion;
-    private SubInstalaciones subInstalaciones;
     private String pedania;
     private String lugar;
     private String longitud;
     private String latitud;
+    private ArrayList<SubInstalacion> subInstalaciones;
+    private boolean barrio;
 
-    public Instalacion(String instID, String pedania, String lugar, String longitud, String latitud, SubInstalaciones subInstalaciones) {
+    public Instalacion(String instID, String pedania, String lugar, String longitud, String latitud, ArrayList<SubInstalacion> subInstalaciones) {
         this.idInstalacion = instID;
         this.pedania = pedania;
         this.lugar = lugar;
         this.latitud = latitud;
         this.longitud = longitud;
         this.subInstalaciones = subInstalaciones;
+        this. barrio = false;
 
     }
 
     public Instalacion() {
     }
 
-
-    public ArrayList<SubInstalacion> getTiposInstalaciones() {
-        return subInstalaciones;
-    }
 
     public String getIdInstalacion() {
         return idInstalacion;
@@ -45,11 +43,11 @@ public class Instalacion {
     }
 
 
-    public void setSubInstalaciones(SubInstalaciones subInstalaciones) {
+    public void setSubInstalaciones(ArrayList<SubInstalacion> subInstalaciones) {
         this.subInstalaciones = subInstalaciones;
     }
 
-    public SubInstalaciones getSubInstalaciones() {
+    public ArrayList<SubInstalacion> getSubInstalaciones() {
         return subInstalaciones;
     }
 
@@ -85,10 +83,23 @@ public class Instalacion {
         this.latitud = latitud;
     }
 
+    public boolean isBarrio() {
+        return barrio;
+    }
+
+    public void setBarrio(boolean barrio) {
+        this.barrio = barrio;
+    }
 
     @Override
     public String toString() {
-        return "Instalacion{" + ", titulo=" + idInstalacion + ", TiposInstalacion=" + subInstalaciones + ", a\u00f1o=" + pedania + ", precio=" + lugar + '}';
+        if(barrio){
+            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", barrio=" + pedania + ", lugar=" + lugar + '}';
+        }else {
+            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", pedania=" + pedania + ", lugar=" + lugar + '}';
+        }
+
+
     }
 
 

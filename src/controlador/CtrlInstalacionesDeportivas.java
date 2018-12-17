@@ -58,6 +58,9 @@ public class CtrlInstalacionesDeportivas extends ControlDom {
         CtrlInstalacion cInstalacion = new CtrlInstalacion();
         for (int i = 0; i < insDep.size(); i++) {
             Element instalacion = doc.createElement(Constantes.ET_INSTALACION);
+
+
+            cInstalacion.escribirInstalacion(doc, instalacion, insDep.get(i) );
             raiz.appendChild(instalacion);
             //instalacion.setAttribute("category", bs.get(i).getCategoria());
             //if (bs.get(i).getCover() != "") {

@@ -80,6 +80,9 @@ public class ControlDom {
      */
     public static String getValorEtiqueta(String etiqueta, Element item) {
         Node nValue = item.getElementsByTagName(etiqueta).item(0);
+        if(nValue==null){
+            return null;
+        }
         return nValue.getChildNodes().item(0).getNodeValue();
     }
 

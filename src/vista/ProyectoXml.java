@@ -11,7 +11,6 @@ import controlador.CtrlInstalacionesDeportivas;
 import entidad.Instalacion;
 import entidad.InstalacionesDeportivas;
 import entidad.SubInstalacion;
-import entidad.SubInstalaciones;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
@@ -20,6 +19,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -33,7 +33,7 @@ public class ProyectoXml {
     public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException, TransformerException {
         // TODO code application logic here
 
-        String ruta = "DocumentoXml/instalaciones_deportivas.xml";
+        String ruta;
         Scanner tc = new Scanner(System.in);
         ControlDom ctrlDoc = new ControlDom();
         Constantes cons = new Constantes();
@@ -55,7 +55,7 @@ public class ProyectoXml {
                     System.out.print("Introduce la ruta del bookstore a leer (En blanco para bookstore por defecto): ");
                     ruta = tc.nextLine();
                     if (ruta.equals("")) {
-                        doc = ctrlDoc.deXMLaDOM(new File("Bookstores/bookstore.xml"));
+                        doc = ctrlDoc.deXMLaDOM(new File("DocumentoXml/instalaciones_deportivas.xml"));
                     } else {
                         doc = ctrlDoc.deXMLaDOM(new File(ruta));
                     }
@@ -103,7 +103,7 @@ public class ProyectoXml {
                             System.out.print("Introduce el precio del libro: ");
                             String precio = tc.nextLine();
                             String masAutores = "";
-                            SubInstalaciones subs = new SubInstalaciones();
+                            ArrayList<SubInstalacion> subs = new ArrayList<>();
                             instalacion = new Instalacion("pene", "mas pene", "mas mas penes", "super penes", "more penises", subs);
                             do {
                                 System.out.print("Introduce el nombre del autor: ");
@@ -126,25 +126,25 @@ public class ProyectoXml {
 
                     break;
                 case "5": // Escribir el objeto bookstore en un nuevo documento
-                    /*
+
 
                     docNuevo = ctrlDoc.instanciarDocumento();
-                    Element raiz = docNuevo.createElement("bookstore");
+                    Element raiz = docNuevo.createElement(cons.ET_INSTALACIONES_DEPORTIVAS);
                     docNuevo.appendChild(raiz);
                     System.out.println("Se ha añadido de elemento raiz al documento: " + docNuevo.getDocumentElement().getTagName());
-                    cb.escribirBookstore(docNuevo, bStore2, raiz);
+                    cb.escribirInstalacionesDeportivas(docNuevo, insDeportivas, raiz);
                     System.out.println("Se ha generado el dom satisfactoriamente");
                     break;
-                    */
+
                 case "6": //Seleccionar el nombre del fichero donde almacenarlo
-                    System.out.print("Nombre del fichero (En blanco para defaultBookstore.xml): ");
+                    System.out.print("Nombre del fichero (En blanco para instalaciones_deportivas.xml): ");
                     rutaAlmacenarXml = tc.nextLine();
                     break;
                 case "7": //Guardar el documento a xml
                     if (!rutaAlmacenarXml.equals("")) {
-                        ctrlDoc.deDOMaXML(docNuevo, new File("Bookstores/" + rutaAlmacenarXml + ".xml"));
+                        ctrlDoc.deDOMaXML(docNuevo, new File("DocumentoXml/" + rutaAlmacenarXml + ".xml"));
                     } else {
-                        ctrlDoc.deDOMaXML(docNuevo, new File("Bookstores/defaultBookstore.xml"));
+                        ctrlDoc.deDOMaXML(docNuevo, new File("DocumentoXml/instalaciones_deportivas.xml"));
                     }
 
                     break;

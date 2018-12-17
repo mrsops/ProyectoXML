@@ -20,11 +20,13 @@ public class Constantes {
     public static final String ET_LUGAR = "lugar";
     public static final String ET_LONGITUD = "longitud";
     public static final String ET_LATITUD = "latitud";
-    public static final String ET_SUBINSTALACION = "tipo-instalacion";
+    public static final String ET_SUBINSTALACIONES = "subinstalaciones";
+    public static final String ET_SUBINSTALACION = "subinstalacion";
     public static final String ET_UBICACION = "idubicacion";
     public static final String ET_USO = "uso";
     public static final String ET_CANTIDAD = "cantidad";
-
+    public static final String ET_BARRIO = "barrio";
+    public static final String ET_INSTALACIONES_DEPORTIVAS = "instalaciones-deportivas";
 
     public Constantes() {
     }
