@@ -20,11 +20,22 @@ public class SubInstalacionDAO {
 
     public void insertar(Connection con, SubInstalacion subInstalacion) throws Exception {
         PreparedStatement stmt = null;
-
+        
         try {
-            stmt = con.prepareStatement("INSERT INTO SubInstalacion ( Uso ) VALUES(?)");
-            stmt.setString(1, subInstalacion.getUso());
+            SubInstalacion subI = findByUso(con, subInstalacion);
+            if(subI==null){
+            if (subInstalacion.getIdSubInstalacion()!= -1){
+                stmt = con.prepareStatement("INSERT INTO subInstalaciones ( IdSubinstalacion, Uso ) VALUES(?,?)");
+                stmt.setInt(1, subInstalacion.getIdSubInstalacion());
+                stmt.setString(2, subInstalacion.getUso());
+            }else{
+                stmt = con.prepareStatement("INSERT INTO subInstalaciones ( Uso ) VALUES(?)");
+                stmt.setString(1, subInstalacion.getUso());
+            }
+            System.out.println("Se ha intentado insertar sub inst");
+            
             stmt.executeUpdate();
+        }
         } catch (SQLException ex) {
             ex.printStackTrace();
             throw new Exception("problemas al insertar la instalacion " + ex.getMessage());
@@ -35,20 +46,20 @@ public class SubInstalacionDAO {
         }
     }
     
-    /*
-    public SubInstalacion findByIdTipoInstalacion(Connection con, SubInstalacion tipo) throws Exception{
+    
+    public SubInstalacion findByIdSubInstalacion(Connection con, SubInstalacion subInstalacion) throws Exception{
         
         PreparedStatement stmt=null;
         ResultSet rs=null;
         
         try{
-         stmt = con.prepareStatement("SELECT * FROM SubInstalacion WHERE IdTipo=?");
-         stmt.setInt(1, tipo.getIdTipo());
+         stmt = con.prepareStatement("SELECT * FROM subInstalaciones WHERE IdSubInstalacion=?");
+         stmt.setInt(1, subInstalacion.getIdSubInstalacion());
          rs = stmt.executeQuery();
             
             while(rs.next()){
-                tipo=new SubInstalacion();
-                obtenTipoFila(rs, tipo);
+                subInstalacion=new SubInstalacion();
+                obtenSubInstalacionFila(rs, subInstalacion);
             }
          
         }catch (SQLException ex){
@@ -59,21 +70,49 @@ public class SubInstalacionDAO {
             if(rs!=null) rs.close();
             if(stmt!=null) stmt.close();
         }
-        return tipo;
-        
-        
-        
+        return subInstalacion;
     }
-    */
-
-    /*
-    private void obtenTipoFila(ResultSet rs, SubInstalacion tipo) throws Exception{
+    
+    public SubInstalacion findByUso(Connection con, SubInstalacion subInstalacion) throws Exception{
         
-        tipo.setIdTipo(rs.getInt("IdInstalacion"));
-        tipo.setUso(rs.getString("Pedania"));
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        
+        try{
+         stmt = con.prepareStatement("SELECT * FROM subInstalaciones WHERE uso=?");
+         stmt.setString(1, subInstalacion.getUso());
+         rs = stmt.executeQuery();
+            
+         boolean existe = false;
+            while(rs.next()){
+                existe = true;
+                subInstalacion=new SubInstalacion();
+                obtenSubInstalacionFila(rs, subInstalacion);
+            }
+            if(!existe){
+                return null;
+            }
+         
+        }catch (SQLException ex){
+           ex.printStackTrace();
+           throw new Exception("problema al buscar por Id "+ex.getMessage());
+        }finally
+        {
+            if(rs!=null) rs.close();
+            if(stmt!=null) stmt.close();
+        }
+        return subInstalacion;
+    }
+    
+
+    
+    private void obtenSubInstalacionFila(ResultSet rs, SubInstalacion subInstalacion) throws Exception{
+     
+        subInstalacion.setIdSubInstalacion(rs.getInt("IdSubInstalacion"));
+        subInstalacion.setUso(rs.getString("Uso"));
     }
 
-    */
+    
 
 
 }

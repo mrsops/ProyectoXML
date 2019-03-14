@@ -22,7 +22,7 @@ public class Constantes {
     public static final String ET_LATITUD = "latitud";
     public static final String ET_SUBINSTALACIONES = "subinstalaciones";
     public static final String ET_SUBINSTALACION = "subinstalacion";
-    public static final String ET_UBICACION = "idubicacion";
+    public static final String ET_ID_SUBINSTALACION = "idSubinstalacion";
     public static final String ET_USO = "uso";
     public static final String ET_CANTIDAD = "cantidad";
     public static final String ET_BARRIO = "barrio";

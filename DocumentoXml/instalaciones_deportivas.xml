@@ -8,14 +8,17 @@
 <latitud>37.654245892818686</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -29,10 +32,12 @@
 <latitud>37.46439394507928</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -46,14 +51,17 @@
 <latitud>37.577041285970068</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -67,6 +75,7 @@
 <latitud>37.66857054857509</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -80,10 +89,12 @@
 <latitud>37.8684022326721</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -97,6 +108,7 @@
 <latitud>37.469234497023429</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>7</idSubinstalacion>
 <uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -110,6 +122,7 @@
 <latitud>37.669482558423176</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -123,6 +136,7 @@
 <latitud>37.728591849038942</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -136,10 +150,12 @@
 <latitud>37.685438329494495</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -153,6 +169,7 @@
 <latitud>37.907906693461321</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -166,10 +183,12 @@
 <latitud>37.679851320896304</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>8</idSubinstalacion>
 <uso>Pista de petanca</uso>
 <cantidad>12</cantidad>
 </subinstalacion>
@@ -183,6 +202,7 @@
 <latitud>37.668873226154581</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -196,10 +216,12 @@
 <latitud>37.61600868889353</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -213,10 +235,12 @@
 <latitud>37.535058808569751</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -230,10 +254,12 @@
 <latitud>37.671981405328125</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -247,6 +273,7 @@
 <latitud>37.949530033303311</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -260,14 +287,17 @@
 <latitud>37.68761666059325</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -281,10 +311,12 @@
 <latitud>37.65726125278001</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>8</idSubinstalacion>
 <uso>Pista de petanca</uso>
 <cantidad>4</cantidad>
 </subinstalacion>
@@ -298,14 +330,17 @@
 <latitud>37.658777380465679</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -319,10 +354,12 @@
 <latitud>37.649618298140474</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -336,6 +373,7 @@
 <latitud>37.588095652374669</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -349,6 +387,7 @@
 <latitud>37.669015740291044</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>10</idSubinstalacion>
 <uso>Circuito de cross</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -362,10 +401,12 @@
 <latitud>37.668005131341921</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -379,18 +420,22 @@
 <latitud>37.727095976037</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>11</idSubinstalacion>
 <uso>Piscina de competición</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
 <uso>Piscina de chapoteo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -404,6 +449,7 @@
 <latitud>37.67835326982653</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>13</idSubinstalacion>
 <uso>Pista de baloncesto</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -417,6 +463,7 @@
 <latitud>37.5340038388823</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -430,18 +477,22 @@
 <latitud>37.669295990755664</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -455,6 +506,7 @@
 <latitud>37.694717947129945</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -468,14 +520,17 @@
 <latitud>37.668259908004579</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -489,18 +544,22 @@
 <latitud>37.668378803481183</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -514,14 +573,17 @@
 <latitud>37.463656791199682</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -535,10 +597,12 @@
 <latitud>37.84076317064261</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>14</idSubinstalacion>
 <uso>Pista polideportiva múltiple cubierta</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -552,10 +616,12 @@
 <latitud>37.682746768460369</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -569,6 +635,7 @@
 <latitud>37.588699271025064</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -582,10 +649,12 @@
 <latitud>37.66099471453844</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>14</idSubinstalacion>
 <uso>Pista polideportiva múltiple cubierta</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -599,10 +668,12 @@
 <latitud>37.680744750469316</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -616,10 +687,12 @@
 <latitud>37.852341881041362</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -633,14 +706,17 @@
 <latitud>37.700380235666913</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -654,6 +730,7 @@
 <latitud>37.662720176115826</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -667,18 +744,22 @@
 <latitud>37.663036811610148</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>14</idSubinstalacion>
 <uso>Pista polideportiva múltiple cubierta</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -692,10 +773,12 @@
 <latitud>37.685984510238185</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
@@ -709,14 +792,17 @@
 <latitud>37.634910704085677</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -730,14 +816,17 @@
 <latitud>37.837726152097254</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
 <uso>Piscina de enseñanza</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
 <uso>Piscina de chapoteo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -751,10 +840,12 @@
 <latitud>37.678533711554095</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -768,6 +859,7 @@
 <latitud>37.474375144631637</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -781,6 +873,7 @@
 <latitud>37.687482141878249</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -794,6 +887,7 @@
 <latitud>37.714173356222439</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>16</idSubinstalacion>
 <uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -807,6 +901,7 @@
 <latitud>37.665637524298965</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
@@ -820,6 +915,7 @@
 <latitud>37.6613721378027</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -833,14 +929,17 @@
 <latitud>37.676651921578276</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -854,6 +953,7 @@
 <latitud>37.58717746250602</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -867,14 +967,17 @@
 <latitud>37.878728317733078</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>17</idSubinstalacion>
 <uso>Pabellón polivalente</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -888,10 +991,12 @@
 <latitud>37.469389634323754</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -905,6 +1010,7 @@
 <latitud>37.706976452711828</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -918,14 +1024,17 @@
 <latitud>37.949033256123755</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -939,10 +1048,12 @@
 <latitud>37.876873714780871</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -956,6 +1067,7 @@
 <latitud>37.713744747124984</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -969,6 +1081,7 @@
 <latitud>37.850396073137361</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -982,14 +1095,17 @@
 <latitud>37.579677159421536</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>18</idSubinstalacion>
 <uso>Pista de voleibol</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1003,6 +1119,7 @@
 <latitud>37.47253169408453</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1016,18 +1133,22 @@
 <latitud>37.638878396169829</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>19</idSubinstalacion>
 <uso>Estadio de fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1041,10 +1162,12 @@
 <latitud>37.876303933692533</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1058,6 +1181,7 @@
 <latitud>37.662871195224994</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1071,6 +1195,7 @@
 <latitud>37.580110794180008</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>17</idSubinstalacion>
 <uso>Pabellón polivalente</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1084,6 +1209,7 @@
 <latitud>37.510970780948078</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1097,6 +1223,7 @@
 <latitud>37.675754860287348</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1110,14 +1237,17 @@
 <latitud>37.6857967900816</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
 <uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -1131,10 +1261,12 @@
 <latitud>37.679121072873791</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>20</idSubinstalacion>
 <uso>Modulo escolar nivel 2 (bc y vestuarios)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
@@ -1148,10 +1280,12 @@
 <latitud>37.697994826496675</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1165,10 +1299,12 @@
 <latitud>37.670109799198073</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1182,6 +1318,7 @@
 <latitud>37.677955305301346</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>21</idSubinstalacion>
 <uso>Pista de monopatín</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1195,58 +1332,72 @@
 <latitud>37.677373702407252</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>22</idSubinstalacion>
 <uso>Sala de tenis de mesa</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>23</idSubinstalacion>
 <uso>Circuitos deportivos</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>24</idSubinstalacion>
 <uso>Jacuzzi</uso>
 <cantidad>4</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>25</idSubinstalacion>
 <uso>Masaje deportivo</uso>
 <cantidad>4</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>26</idSubinstalacion>
 <uso>Pista de entrenamiento</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>27</idSubinstalacion>
 <uso>Sala de Judo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>11</idSubinstalacion>
 <uso>Piscina de competición</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
 <uso>Piscina de enseñanza</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>28</idSubinstalacion>
 <uso>Aula para reuniones, proyecciones, cursos, etc.</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>29</idSubinstalacion>
 <uso>Sauna</uso>
 <cantidad>4</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>30</idSubinstalacion>
 <uso>Squash</uso>
 <cantidad>4</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>31</idSubinstalacion>
 <uso>Sala de musculación</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>32</idSubinstalacion>
 <uso>Pista transversal</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>33</idSubinstalacion>
 <uso>Pista central</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1260,18 +1411,22 @@
 <latitud>37.659386530192037</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>7</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>7</idSubinstalacion>
 <uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
 <uso>Piscina de enseñanza</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
 <uso>Piscina de chapoteo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1285,6 +1440,7 @@
 <latitud>37.668472221222018</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>16</idSubinstalacion>
 <uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1298,22 +1454,27 @@
 <latitud>37.66629147016841</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>29</idSubinstalacion>
 <uso>Sauna</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>31</idSubinstalacion>
 <uso>Sala de musculación</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>32</idSubinstalacion>
 <uso>Pista transversal</uso>
 <cantidad>3</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>33</idSubinstalacion>
 <uso>Pista central</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
@@ -1327,58 +1488,72 @@
 <latitud>37.644431853410921</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>34</idSubinstalacion>
 <uso>Frontón</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>10</idSubinstalacion>
 <uso>Circuito de cross</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>35</idSubinstalacion>
 <uso>Rocódromo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>36</idSubinstalacion>
 <uso>Velódromo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>37</idSubinstalacion>
 <uso>Pista de atletismo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>5</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
 <uso>Piscina de enseñanza</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>38</idSubinstalacion>
 <uso>Piscina polivalente</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
 <uso>Piscina de chapoteo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>11</idSubinstalacion>
 <uso>Piscina de competición</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>39</idSubinstalacion>
 <uso>Pista de tenis</uso>
 <cantidad>7</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>2</cantidad>
 </subinstalacion>

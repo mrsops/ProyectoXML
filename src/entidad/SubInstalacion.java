@@ -10,23 +10,23 @@ package entidad;
  */
 public class SubInstalacion {
 
-    private String idTipo;
+    private int idSubInstalacion;
     private String uso;
-    private String cantidad;
+    private int cantidad;
 
     public SubInstalacion() {
     }
 
-    public SubInstalacion(String id, String uso, String cantidad) {
-        this.idTipo = id;
+    public SubInstalacion(int id, String uso, String cantidad) {
+        this.idSubInstalacion = id;
     }
 
-    public String getIdTipo() {
-        return idTipo;
+    public int getIdSubInstalacion() {
+        return idSubInstalacion;
     }
 
-    public void setIdTipo(String id) {
-        this.idTipo = id;
+    public void setIdSubInstalacion(int idSubInstalacion) {
+        this.idSubInstalacion = idSubInstalacion;
     }
 
     public String getUso() {
@@ -37,18 +37,20 @@ public class SubInstalacion {
         this.uso = uso;
     }
 
-    public String getCantidad() {
+    public int getCantidad() {
         return cantidad;
     }
 
-    public void setCantidad(String cantidad) {
+    public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+
+    
 
 
     @Override
     public String toString() {
-        return "Tipo{" + "id=" + this.idTipo + ", Uso=" + this.uso + ", cantidad=" + this.cantidad + '}';
+        return "Tipo{" + "id=" + this.idSubInstalacion + ", Uso=" + this.uso + ", cantidad=" + this.cantidad + '}';
     }
 
 }

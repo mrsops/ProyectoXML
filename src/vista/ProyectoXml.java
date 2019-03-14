@@ -8,6 +8,8 @@ package vista;
 import controlador.Constantes;
 import controlador.ControlDom;
 import controlador.CtrlInstalacionesDeportivas;
+import dao.Conexion_DB;
+import dao.InstalacionDAO;
 import entidad.Instalacion;
 import entidad.InstalacionesDeportivas;
 import entidad.SubInstalacion;
@@ -19,6 +21,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -32,12 +35,13 @@ public class ProyectoXml {
      */
     public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException, TransformerException {
         // TODO code application logic here
-
+        Conexion_DB conexionDb=new Conexion_DB();
         String ruta;
+        Connection con=null;
         Scanner tc = new Scanner(System.in);
         ControlDom ctrlDoc = new ControlDom();
         Constantes cons = new Constantes();
-        CtrlInstalacionesDeportivas cb = new CtrlInstalacionesDeportivas();
+        CtrlInstalacionesDeportivas cid = new CtrlInstalacionesDeportivas();
         Document doc = null;
         Document docNuevo = null;
         InstalacionesDeportivas insDeportivas = null;
@@ -64,20 +68,22 @@ public class ProyectoXml {
                 case "2": // Crear bookstore y leer del document
                     if (docCreado) {
                         insDeportivas = new InstalacionesDeportivas();
-                        insDeportivas = cb.leerInstalacionesDeportivas(doc);
+                        insDeportivas = cid.leerInstalacionesDeportivas(doc);
                     } else {
                         System.out.println("El documento aun no se ha seleccionado");
                     }
                     break;
                 case "3": // Mostrar el bookstore
-                    if (docCreado) {
-                        insDeportivas.mostrarBookstore();
-                    } else {
-                        System.out.println("El documento aun no se ha seleccionado");
+                    if(insDeportivas !=null){
+                        insDeportivas.mostrarInstalacionesDeportivas();
+                    }else{
+                        System.out.println("Las instalaciones Deportivas aun no se han creado");
                     }
+
 
                     break;
                 case "4": // Crear un nuevo bookstore y añadir libros
+                    /*
                     bStore2 = new InstalacionesDeportivas();
                     String masBooks = "";
 
@@ -118,21 +124,18 @@ public class ProyectoXml {
                             masBooks = tc.nextLine();
                         } while (masBooks.equals("s") || masBooks.equals("S"));
                     } else {
-                        /*
+                        
                         cons.altaLibrosDefault(bStore2); //Añadimos algunos libros por defecto
-                        bStore2.mostrarBookstore();
-                        */
+                        bStore2.mostrarBookstore();                      
                     }
-
+            */
                     break;
-                case "5": // Escribir el objeto bookstore en un nuevo documento
-
-
+                case "5": // Escribir el objeto en un nuevo documento
                     docNuevo = ctrlDoc.instanciarDocumento();
                     Element raiz = docNuevo.createElement(cons.ET_INSTALACIONES_DEPORTIVAS);
                     docNuevo.appendChild(raiz);
                     System.out.println("Se ha añadido de elemento raiz al documento: " + docNuevo.getDocumentElement().getTagName());
-                    cb.escribirInstalacionesDeportivas(docNuevo, insDeportivas, raiz);
+                    cid.escribirInstalacionesDeportivas(docNuevo, insDeportivas, raiz);
                     System.out.println("Se ha generado el dom satisfactoriamente");
                     break;
 
@@ -147,6 +150,32 @@ public class ProyectoXml {
                         ctrlDoc.deDOMaXML(docNuevo, new File("DocumentoXml/instalaciones_deportivas.xml"));
                     }
 
+                    break;
+                    
+                case "8": // Pasar datos a base de datos
+                    
+                    try {
+                        con = conexionDb.abrirConexion();
+                        InstalacionDAO insDao = new InstalacionDAO();
+                        for(Instalacion i:insDeportivas){
+                            insDao.insertar(con, i, i.getIdInstalacion());
+                        }
+                        con.close();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    break;
+                    
+                case "9": //Leer de la base de datos
+                    
+                    try {
+                        con = conexionDb.abrirConexion();
+                        InstalacionDAO insDao = new InstalacionDAO();
+                        insDeportivas = insDao.findAll(con);
+                        con.close();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    } 
                     break;
                 case "0":
                     System.out.println("Finalizando programa");
@@ -172,11 +201,13 @@ public class ProyectoXml {
     public static void mostrarMenu() { //Menu
         System.out.println("1. Seleccionar fichero xml para nuevo documento");
         System.out.println("2. Leer documento y crear objeto Bookstore a partir de el");
-        System.out.println("3.-Mostrar el BookStore");
-        System.out.println("4.-Crear nuevo Bookstore, y añadir libros en el");
-        System.out.println("5.-Escribir el bookstore a documento");
+        System.out.println("3.-Mostrar las instalaciones deportivas");
+        System.out.println("4.-Inactivo");
+        System.out.println("5.-Escribir las instalaciones a documento");
         System.out.println("6.-Introducir ruta destino del archivo xml (Solo nombre sin extension)");
         System.out.println("7.-Guardar el documento a XML");
+        System.out.println("8.-Pasar Instalaciones deportivas a Base de datos");
+        System.out.println("9.-Pasar Instalaciones deportivas a Base de datos");
         System.out.println("0. Salir");
     }
 

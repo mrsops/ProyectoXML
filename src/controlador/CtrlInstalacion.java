@@ -25,13 +25,13 @@ public class CtrlInstalacion extends ControlDom {
     public Instalacion leerInstalacion(Document doc, Element instalacion) {
         Instalacion ins = new Instalacion();
         Constantes cons = new Constantes();
-        ins.setIdInstalacion(getValorEtiqueta(cons.ET_ID_INSTALACION, instalacion));
+        ins.setIdInstalacion(Integer.parseInt(getValorEtiqueta(cons.ET_ID_INSTALACION, instalacion)));
         String lugar = getValorEtiqueta(cons.ET_PEDANIA, instalacion);
         if (lugar == null){
-            ins.setPedania(getValorEtiqueta("barrio", instalacion));
+            ins.setLocalizacion(getValorEtiqueta("barrio", instalacion));
             ins.setBarrio(true);
         }else{
-            ins.setPedania(lugar);
+            ins.setLocalizacion(lugar);
         }
 
         ins.setLugar(getValorEtiqueta(cons.ET_LUGAR, instalacion));
@@ -49,16 +49,16 @@ public class CtrlInstalacion extends ControlDom {
         Constantes cons = new Constantes();
 
         Element eId = doc.createElement(cons.ET_ID_INSTALACION);
-        eId.appendChild(doc.createTextNode(ins.getIdInstalacion()));
+        eId.appendChild(doc.createTextNode(ins.getIdInstalacion()+""));
         instalacion.appendChild(eId);
 
         if (ins.isBarrio()){
             Element eBarrio = doc.createElement(cons.ET_BARRIO);
-            eBarrio.appendChild(doc.createTextNode(ins.getPedania()));
+            eBarrio.appendChild(doc.createTextNode(ins.getLocalizacion()));
             instalacion.appendChild(eBarrio);
         }else{
             Element ePedania = doc.createElement(cons.ET_PEDANIA);
-            ePedania.appendChild(doc.createTextNode(ins.getPedania()));
+            ePedania.appendChild(doc.createTextNode(ins.getLocalizacion()));
             instalacion.appendChild(ePedania);
         }
 
@@ -83,15 +83,16 @@ public class CtrlInstalacion extends ControlDom {
 
     public void escribirSubInstalaciones(Document doc, Element subInstalaciones, Instalacion ins){
         Constantes cons = new Constantes();
-
-        Element eId = doc.createElement("id");
         for (int i = 0; i < ins.getSubInstalaciones().size(); i++) {
             Element eSubInst = doc.createElement("subinstalacion");
             Element eUso = doc.createElement(cons.ET_USO);
+            Element eIdSub = doc.createElement(cons.ET_ID_SUBINSTALACION);
+            eIdSub.appendChild(doc.createTextNode(ins.getSubInstalaciones().get(i).getIdSubInstalacion()+""));
             eUso.appendChild(doc.createTextNode(ins.getSubInstalaciones().get(i).getUso()));
+            eSubInst.appendChild(eIdSub);
             eSubInst.appendChild(eUso);
             Element eCantidad = doc.createElement(cons.ET_CANTIDAD);
-            eCantidad.appendChild(doc.createTextNode(ins.getSubInstalaciones().get(i).getCantidad()));
+            eCantidad.appendChild(doc.createTextNode(ins.getSubInstalaciones().get(i).getCantidad()+""));
             eSubInst.appendChild(eCantidad);
             subInstalaciones.appendChild(eSubInst);
 
@@ -122,8 +123,14 @@ public class CtrlInstalacion extends ControlDom {
     public SubInstalacion leerSubInstalacion(Document doc, Element subInstalacion) {
         Constantes cons = new Constantes();
         SubInstalacion sub = new SubInstalacion();
-        sub.setIdTipo(getValorEtiqueta(cons.ET_UBICACION, subInstalacion));
-        sub.setCantidad(getValorEtiqueta(cons.ET_CANTIDAD, subInstalacion));
+        String valorId = getValorEtiqueta(cons.ET_ID_SUBINSTALACION, subInstalacion);
+        if (valorId==null || valorId.equals("-1")){
+            sub.setIdSubInstalacion(-1);
+        }else{
+            sub.setIdSubInstalacion(Integer.parseInt(getValorEtiqueta(cons.ET_ID_SUBINSTALACION, subInstalacion)));
+        }
+        
+        sub.setCantidad(Integer.parseInt(getValorEtiqueta(cons.ET_CANTIDAD, subInstalacion)));
         sub.setUso(getValorEtiqueta(cons.ET_USO, subInstalacion));
         return sub;
     }

@@ -11,17 +11,17 @@ import java.util.ArrayList;
  * @author Carlos
  */
 public class Instalacion {
-    private String idInstalacion;
-    private String pedania;
+    private int idInstalacion;
+    private String localizacion;
     private String lugar;
     private String longitud;
     private String latitud;
     private ArrayList<SubInstalacion> subInstalaciones;
     private boolean barrio;
 
-    public Instalacion(String instID, String pedania, String lugar, String longitud, String latitud, ArrayList<SubInstalacion> subInstalaciones) {
+    public Instalacion(int instID, String pedania, String lugar, String longitud, String latitud, ArrayList<SubInstalacion> subInstalaciones) {
         this.idInstalacion = instID;
-        this.pedania = pedania;
+        this.localizacion = pedania;
         this.lugar = lugar;
         this.latitud = latitud;
         this.longitud = longitud;
@@ -34,11 +34,11 @@ public class Instalacion {
     }
 
 
-    public String getIdInstalacion() {
+    public int getIdInstalacion() {
         return idInstalacion;
     }
 
-    public void setIdInstalacion(String instalacionID) {
+    public void setIdInstalacion(int instalacionID) {
         this.idInstalacion = instalacionID;
     }
 
@@ -51,13 +51,15 @@ public class Instalacion {
         return subInstalaciones;
     }
 
-    public String getPedania() {
-        return pedania;
+    public String getLocalizacion() {
+        return localizacion;
     }
 
-    public void setPedania(String pedania) {
-        this.pedania = pedania;
+    public void setLocalizacion(String localizacion) {
+        this.localizacion = localizacion;
     }
+
+    
 
     public String getLugar() {
         return lugar;
@@ -94,9 +96,9 @@ public class Instalacion {
     @Override
     public String toString() {
         if(barrio){
-            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", barrio=" + pedania + ", lugar=" + lugar + '}';
+            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", barrio=" + localizacion + ", lugar=" + lugar + '}';
         }else {
-            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", pedania=" + pedania + ", lugar=" + lugar + '}';
+            return "Instalacion{" + " Id=" + idInstalacion + ", SubInstalaciones=" + subInstalaciones + ", pedania=" + localizacion + ", lugar=" + lugar + '}';
         }
 
 

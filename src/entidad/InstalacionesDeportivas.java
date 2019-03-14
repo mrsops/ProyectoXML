@@ -23,8 +23,8 @@ public class InstalacionesDeportivas extends ArrayList<Instalacion> {
         this.modCount = modCount;
     }
 
-    public void mostrarBookstore() {
-        System.out.println("Información bookstore");
+    public void mostrarInstalacionesDeportivas() {
+        System.out.println("Información Instalaciones Deportivas");
         System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------------------");
         for (int i = 0; i < this.size(); i++) {
             System.out.println(this.get(i).toString());
@@ -36,7 +36,7 @@ public class InstalacionesDeportivas extends ArrayList<Instalacion> {
 
     @Override
     public String toString() {
-        return "Este bookstore tiene " + this.size() + " libros";
+        return "Existen " + this.size() + " intalaciones deportivas";
     }
 
 }

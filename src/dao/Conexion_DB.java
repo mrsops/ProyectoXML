@@ -19,8 +19,8 @@ public class Conexion_DB {
 
         try {
 
-            Class.forName("com.mysql.jdbc.Connection");
-            String urlOdbc = "jdbc:mysql://localhost:3306/InstalacionesDeportivas";
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String urlOdbc = "jdbc:mysql://localhost:3306/instalaciones_deportivas?serverTimezone=UTC";
             con = (java.sql.DriverManager.getConnection(urlOdbc, "root", ""));
 
             return con;
