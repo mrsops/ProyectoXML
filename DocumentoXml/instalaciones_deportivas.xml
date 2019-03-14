@@ -25,49 +25,6 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>49</id>
-<pedania>ALMENDRICOS</pedania>
-<lugar>Afueras del casco de Almendricos</lugar>
-<longitud>-1.7760944366455078</longitud>
-<latitud>37.46439394507928</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>4</idSubinstalacion>
-<uso>Fútbol</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>33</id>
-<pedania>PURIAS</pedania>
-<lugar>Colegio de Purias</lugar>
-<longitud>-1.6713166236877441</longitud>
-<latitud>37.577041285970068</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>6</idSubinstalacion>
-<uso>Pista polideportiva múltiple</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
 <id>2</id>
 <pedania>PULGARA</pedania>
 <lugar>AAVV Pulgara</lugar>
@@ -82,41 +39,115 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>65</id>
-<pedania>PACA (LA)</pedania>
-<lugar>Colegio de La Paca</lugar>
-<longitud>-1.8343734741210938</longitud>
-<latitud>37.8684022326721</latitud>
+<id>3</id>
+<pedania>SAN JOSE</pedania>
+<lugar>Recinto institutos José Ibañez Martín y Francisco Ros Giner</lugar>
+<longitud>-1.6995227336883545</longitud>
+<latitud>37.669015740291044</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
+<idSubinstalacion>10</idSubinstalacion>
+<uso>Circuito de cross</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>72</id>
-<pedania>ALMENDRICOS</pedania>
-<lugar>Junto colegio nuevo de Almendricos</lugar>
-<longitud>-1.7767274379730225</longitud>
-<latitud>37.469234497023429</latitud>
+<id>5</id>
+<pedania>HOYA (LA)</pedania>
+<lugar>Junto colegio de La Hoya</lugar>
+<longitud>-1.5864729881286621</longitud>
+<latitud>37.714173356222439</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>7</idSubinstalacion>
-<uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
+<idSubinstalacion>16</idSubinstalacion>
+<uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>6</id>
+<pedania>SAN CRISTOBAL</pedania>
+<lugar>Complejo Deportivo Europa</lugar>
+<longitud>-1.6888582706451416</longitud>
+<latitud>37.677373702407252</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>11</idSubinstalacion>
+<uso>Piscina de competición</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
+<uso>Piscina de enseñanza</uso>
+<cantidad>3</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>22</idSubinstalacion>
+<uso>Sala de tenis de mesa</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>23</idSubinstalacion>
+<uso>Circuitos deportivos</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>24</idSubinstalacion>
+<uso>Jacuzzi</uso>
+<cantidad>4</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>25</idSubinstalacion>
+<uso>Masaje deportivo</uso>
+<cantidad>4</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>26</idSubinstalacion>
+<uso>Pista de entrenamiento</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>27</idSubinstalacion>
+<uso>Sala de Judo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>28</idSubinstalacion>
+<uso>Aula para reuniones, proyecciones, cursos, etc.</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>29</idSubinstalacion>
+<uso>Sauna</uso>
+<cantidad>4</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>30</idSubinstalacion>
+<uso>Squash</uso>
+<cantidad>4</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>31</idSubinstalacion>
+<uso>Sala de musculación</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>32</idSubinstalacion>
+<uso>Pista transversal</uso>
+<cantidad>3</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>33</idSubinstalacion>
+<uso>Pista central</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>7</id>
-<barrio>SUTULLENA</barrio>
+<pedania>SUTULLENA</pedania>
 <lugar>Colegio Muñoz Barberán</lugar>
 <longitud>-1.6951212286949158</longitud>
 <latitud>37.669482558423176</latitud>
@@ -124,6 +155,39 @@
 <subinstalacion>
 <idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>8</id>
+<pedania>COY</pedania>
+<lugar>Colegio de Coy</lugar>
+<longitud>-1.8129962682724</longitud>
+<latitud>37.949530033303311</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>9</id>
+<pedania>ANGELES (LOS)-APOLONIA</pedania>
+<lugar>Parque de Los Angeles</lugar>
+<longitud>-1.6815733909606934</longitud>
+<latitud>37.685438329494495</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
+<uso>Fútbol 7</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -143,41 +207,8 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>9</id>
-<barrio>ANGELES (LOS)-APOLONIA</barrio>
-<lugar>Parque de Los Angeles</lugar>
-<longitud>-1.6815733909606934</longitud>
-<latitud>37.685438329494495</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>2</idSubinstalacion>
-<uso>Fútbol 7</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>20</id>
-<pedania>AVILES</pedania>
-<lugar>Colegio de Avilés</lugar>
-<longitud>-1.801385321832754</longitud>
-<latitud>37.907906693461321</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
 <id>11</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>Parque San Diego</lugar>
 <longitud>-1.6923880577087402</longitud>
 <latitud>37.679851320896304</latitud>
@@ -196,7 +227,7 @@
 </instalacion>
 <instalacion>
 <id>12</id>
-<barrio>SUTULLENA</barrio>
+<pedania>SUTULLENA</pedania>
 <lugar>Colegio José Robles</lugar>
 <longitud>-1.6949307918548584</longitud>
 <latitud>37.668873226154581</latitud>
@@ -247,41 +278,22 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>27</id>
-<barrio>SAN JOSE</barrio>
-<lugar>Subida al Calvario</lugar>
-<longitud>-1.7043131589889526</longitud>
-<latitud>37.671981405328125</latitud>
+<id>15</id>
+<pedania>SUTULLENA</pedania>
+<lugar>Avenida de Santa Clara. Pabellón Alamedas</lugar>
+<longitud>-1.6925168037414551</longitud>
+<latitud>37.668472221222018</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>8</id>
-<pedania>COY</pedania>
-<lugar>Colegio de Coy</lugar>
-<longitud>-1.8129962682724</longitud>
-<latitud>37.949530033303311</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
+<idSubinstalacion>16</idSubinstalacion>
+<uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>16</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>Alfonso Embarre</lugar>
 <longitud>-1.6902637481689453</longitud>
 <latitud>37.68761666059325</latitud>
@@ -292,20 +304,20 @@
 <cantidad>2</cantidad>
 </subinstalacion>
 <subinstalacion>
-<idSubinstalacion>4</idSubinstalacion>
-<uso>Fútbol</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
 <idSubinstalacion>2</idSubinstalacion>
 <uso>Fútbol 7</uso>
 <cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
+<uso>Fútbol</uso>
+<cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>17</id>
-<barrio>SAN ANTONIO</barrio>
+<pedania>SAN ANTONIO</pedania>
 <lugar>Parque de San Antonio</lugar>
 <longitud>-1.712418794631958</longitud>
 <latitud>37.65726125278001</latitud>
@@ -324,16 +336,11 @@
 </instalacion>
 <instalacion>
 <id>18</id>
-<barrio>SAN ANTONIO</barrio>
+<pedania>SAN ANTONIO</pedania>
 <lugar>I.E.S. San Juan Bosco</lugar>
 <longitud>-1.7114344239234924</longitud>
 <latitud>37.658777380465679</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -342,6 +349,125 @@
 <subinstalacion>
 <idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>19</id>
+<pedania>SAN ANTONIO</pedania>
+<lugar>Complejo deportivo San Antonio</lugar>
+<longitud>-1.7113137245178223</longitud>
+<latitud>37.659386530192037</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>7</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>7</idSubinstalacion>
+<uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
+<uso>Piscina de chapoteo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
+<uso>Piscina de enseñanza</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>20</id>
+<pedania>AVILES</pedania>
+<lugar>Colegio de Avilés</lugar>
+<longitud>-1.801385321832754</longitud>
+<latitud>37.907906693461321</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>21</id>
+<pedania>CARRASQUILLA</pedania>
+<lugar>Campo López</lugar>
+<longitud>-1.5771442651748657</longitud>
+<latitud>37.588095652374669</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>22</id>
+<pedania>ZARCILLA DE RAMOS</pedania>
+<lugar>Complejo piscinas de Zarcilla de Ramos</lugar>
+<longitud>-1.8666243553161621</longitud>
+<latitud>37.837726152097254</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
+<uso>Piscina de chapoteo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
+<uso>Piscina de enseñanza</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>23</id>
+<pedania>SAN JOSE</pedania>
+<lugar>I.E.S. Francisco Ros Giner</lugar>
+<longitud>-1.6998660564422607</longitud>
+<latitud>37.668005131341921</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
+<uso>Pista polideportiva múltiple</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>24</id>
+<pedania>RAMONETE</pedania>
+<lugar>Rambla de Ramonete</lugar>
+<longitud>-1.4446377754211426</longitud>
+<latitud>37.5340038388823</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
+<uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -366,49 +492,100 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>21</id>
-<pedania>CARRASQUILLA</pedania>
-<lugar>Campo López</lugar>
-<longitud>-1.5771442651748657</longitud>
-<latitud>37.588095652374669</latitud>
+<id>26</id>
+<pedania>TORRECILLA</pedania>
+<lugar>Ciudad deportiva de La Torrecilla</lugar>
+<longitud>-1.7310762405395508</longitud>
+<latitud>37.644431853410921</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>3</id>
-<barrio>SAN JOSE</barrio>
-<lugar>Recinto institutos José Ibañez Martín y Francisco Ros Giner</lugar>
-<longitud>-1.6995227336883545</longitud>
-<latitud>37.669015740291044</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>10</idSubinstalacion>
-<uso>Circuito de cross</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>23</id>
-<barrio>SAN JOSE</barrio>
-<lugar>I.E.S. Francisco Ros Giner</lugar>
-<longitud>-1.6998660564422607</longitud>
-<latitud>37.668005131341921</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>6</idSubinstalacion>
-<uso>Pista polideportiva múltiple</uso>
-<cantidad>1</cantidad>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>5</cantidad>
 </subinstalacion>
 <subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
+<uso>Fútbol</uso>
+<cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
+<uso>Pista polideportiva múltiple</uso>
+<cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>10</idSubinstalacion>
+<uso>Circuito de cross</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>11</idSubinstalacion>
+<uso>Piscina de competición</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>12</idSubinstalacion>
+<uso>Piscina de chapoteo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>15</idSubinstalacion>
+<uso>Piscina de enseñanza</uso>
+<cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>34</idSubinstalacion>
+<uso>Frontón</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>35</idSubinstalacion>
+<uso>Rocódromo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>36</idSubinstalacion>
+<uso>Velódromo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>37</idSubinstalacion>
+<uso>Pista de atletismo</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>38</idSubinstalacion>
+<uso>Piscina polivalente</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>39</idSubinstalacion>
+<uso>Pista de tenis</uso>
+<cantidad>7</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>27</id>
+<pedania>SAN JOSE</pedania>
+<lugar>Subida al Calvario</lugar>
+<longitud>-1.7043131589889526</longitud>
+<latitud>37.671981405328125</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
@@ -425,6 +602,11 @@
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
+<idSubinstalacion>2</idSubinstalacion>
+<uso>Fútbol 7</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
 <idSubinstalacion>11</idSubinstalacion>
 <uso>Piscina de competición</uso>
 <cantidad>1</cantidad>
@@ -434,16 +616,11 @@
 <uso>Piscina de chapoteo</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
-<subinstalacion>
-<idSubinstalacion>2</idSubinstalacion>
-<uso>Fútbol 7</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>29</id>
-<barrio>PARROQUIAS ALTAS</barrio>
+<pedania>PARROQUIAS ALTAS</pedania>
 <lugar>San Juan</lugar>
 <longitud>-1.69938325881958</longitud>
 <latitud>37.67835326982653</latitud>
@@ -456,22 +633,22 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>24</id>
-<pedania>RAMONETE</pedania>
-<lugar>Rambla de Ramonete</lugar>
-<longitud>-1.4446377754211426</longitud>
-<latitud>37.5340038388823</latitud>
+<id>30</id>
+<pedania>MORATA</pedania>
+<lugar>Frente colegio de Morata</lugar>
+<longitud>-1.4939314126968384</longitud>
+<latitud>37.58717746250602</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>4</idSubinstalacion>
-<uso>Fútbol</uso>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>31</id>
-<barrio>SAN JOSE</barrio>
+<pedania>SAN JOSE</pedania>
 <lugar>I.E.S. José Ibañez Martín</lugar>
 <longitud>-1.6992974281311035</longitud>
 <latitud>37.669295990755664</latitud>
@@ -482,8 +659,8 @@
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
@@ -492,8 +669,8 @@
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -513,41 +690,36 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>36</id>
-<pedania>MARCHENA</pedania>
-<lugar>Colegio Narciso Yepes</lugar>
-<longitud>-1.6434860229492188</longitud>
-<latitud>37.668259908004579</latitud>
+<id>33</id>
+<pedania>PURIAS</pedania>
+<lugar>Colegio de Purias</lugar>
+<longitud>-1.6713166236877441</longitud>
+<latitud>37.577041285970068</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
+<uso>Pista polideportiva múltiple</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>34</id>
-<barrio>SUTULLENA</barrio>
+<pedania>SUTULLENA</pedania>
 <lugar>Colegio de San Fernando</lugar>
 <longitud>-1.6940617561340332</longitud>
 <latitud>37.668378803481183</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -561,6 +733,11 @@
 <subinstalacion>
 <idSubinstalacion>5</idSubinstalacion>
 <uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -573,10 +750,29 @@
 <latitud>37.463656791199682</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
 <idSubinstalacion>4</idSubinstalacion>
 <uso>Fútbol</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>36</id>
+<pedania>MARCHENA</pedania>
+<lugar>Colegio Narciso Yepes</lugar>
+<longitud>-1.6434860229492188</longitud>
+<latitud>37.668259908004579</latitud>
+<subinstalaciones>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -585,6 +781,11 @@
 <subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -609,6 +810,54 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
+<id>38</id>
+<pedania>MORATA</pedania>
+<lugar>Colegio de San Juan</lugar>
+<longitud>-1.4903318881988525</longitud>
+<latitud>37.588699271025064</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>40</id>
+<pedania>SAN JOSE</pedania>
+<lugar>Pabellón de San José</lugar>
+<longitud>-1.7049944400787354</longitud>
+<latitud>37.66629147016841</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>29</idSubinstalacion>
+<uso>Sauna</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>31</idSubinstalacion>
+<uso>Sala de musculación</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>32</idSubinstalacion>
+<uso>Pista transversal</uso>
+<cantidad>3</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>33</idSubinstalacion>
+<uso>Pista central</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
 <id>41</id>
 <pedania>TERCIA</pedania>
 <lugar>Colegio Villaespesa</lugar>
@@ -628,41 +877,22 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>38</id>
-<pedania>MORATA</pedania>
-<lugar>Colegio de San Juan</lugar>
-<longitud>-1.4903318881988525</longitud>
-<latitud>37.588699271025064</latitud>
+<id>42</id>
+<pedania>SANTIAGO</pedania>
+<lugar>Avenida de Santa Clara. Pista monopatín</lugar>
+<longitud>-1.6928778073283866</longitud>
+<latitud>37.677955305301346</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>57</id>
-<pedania>CAZALLA</pedania>
-<lugar>Colegio Virgen de Las Huertas</lugar>
-<longitud>-1.6776037216186523</longitud>
-<latitud>37.66099471453844</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>14</idSubinstalacion>
-<uso>Pista polideportiva múltiple cubierta</uso>
+<idSubinstalacion>21</idSubinstalacion>
+<uso>Pista de monopatín</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>43</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>Colegio Sagrado Corazón</lugar>
 <longitud>-1.6933375597000122</longitud>
 <latitud>37.680744750469316</latitud>
@@ -723,36 +953,12 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>58</id>
-<barrio>VIÑA (LA)</barrio>
-<lugar>Parque de La Viña</lugar>
-<longitud>-1.7070704698562622</longitud>
-<latitud>37.662720176115826</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
 <id>46</id>
-<barrio>VIÑA (LA)</barrio>
+<pedania>VIÑA (LA)</pedania>
 <lugar>Colegio Pérez de Hita</lugar>
 <longitud>-1.7114746570587158</longitud>
 <latitud>37.663036811610148</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>14</idSubinstalacion>
-<uso>Pista polideportiva múltiple cubierta</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -763,11 +969,21 @@
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>14</idSubinstalacion>
+<uso>Pista polideportiva múltiple cubierta</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>47</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>Colegio San Cristóbal</lugar>
 <longitud>-1.6945338249206543</longitud>
 <latitud>37.685984510238185</latitud>
@@ -792,10 +1008,29 @@
 <latitud>37.634910704085677</latitud>
 <subinstalaciones>
 <subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
+<subinstalacion>
+<idSubinstalacion>4</idSubinstalacion>
+<uso>Fútbol</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>49</id>
+<pedania>ALMENDRICOS</pedania>
+<lugar>Afueras del casco de Almendricos</lugar>
+<longitud>-1.7760944366455078</longitud>
+<latitud>37.46439394507928</latitud>
+<subinstalaciones>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -809,32 +1044,8 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>22</id>
-<pedania>ZARCILLA DE RAMOS</pedania>
-<lugar>Complejo piscinas de Zarcilla de Ramos</lugar>
-<longitud>-1.8666243553161621</longitud>
-<latitud>37.837726152097254</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>15</idSubinstalacion>
-<uso>Piscina de enseñanza</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>12</idSubinstalacion>
-<uso>Piscina de chapoteo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
 <id>50</id>
-<barrio>PARROQUIAS ALTAS</barrio>
+<pedania>PARROQUIAS ALTAS</pedania>
 <lugar>Colegio de Santa María</lugar>
 <longitud>-1.7010462284088135</longitud>
 <latitud>37.678533711554095</latitud>
@@ -848,6 +1059,143 @@
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>51</id>
+<pedania>SAN CRISTOBAL</pedania>
+<lugar>AAVV Río</lugar>
+<longitud>-1.7033153772354126</longitud>
+<latitud>37.687482141878249</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>5</idSubinstalacion>
+<uso>Pista de tamaño reducido</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>52</id>
+<pedania>PURIAS</pedania>
+<lugar>Instituto de Purias</lugar>
+<longitud>-1.6713970899581909</longitud>
+<latitud>37.579677159421536</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>18</idSubinstalacion>
+<uso>Pista de voleibol</uso>
+<cantidad>2</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>53</id>
+<pedania>SAN JOSE</pedania>
+<lugar>Colegio Alfonso X</lugar>
+<longitud>-1.7056542634963989</longitud>
+<latitud>37.665637524298965</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>6</idSubinstalacion>
+<uso>Pista polideportiva múltiple</uso>
+<cantidad>3</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>54</id>
+<pedania>SUTULLENA</pedania>
+<lugar>Avenida Sutullena</lugar>
+<longitud>-1.6977953910827637</longitud>
+<latitud>37.6613721378027</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>55</id>
+<pedania>SANTIAGO</pedania>
+<lugar>I.E.S. Ramón Arcas Meca</lugar>
+<longitud>-1.6944533586502075</longitud>
+<latitud>37.676651921578276</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>3</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>56</id>
+<pedania>PURIAS</pedania>
+<lugar>Junto instituto de Purias</lugar>
+<longitud>-1.671096682548523</longitud>
+<latitud>37.580110794180008</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>17</idSubinstalacion>
+<uso>Pabellón polivalente</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>57</id>
+<pedania>CAZALLA</pedania>
+<lugar>Colegio Virgen de Las Huertas</lugar>
+<longitud>-1.6776037216186523</longitud>
+<latitud>37.66099471453844</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>14</idSubinstalacion>
+<uso>Pista polideportiva múltiple cubierta</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+</subinstalaciones>
+</instalacion>
+<instalacion>
+<id>58</id>
+<pedania>VIÑA (LA)</pedania>
+<lugar>Parque de La Viña</lugar>
+<longitud>-1.7070704698562622</longitud>
+<latitud>37.662720176115826</latitud>
+<subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
+<cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
@@ -866,53 +1214,11 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>51</id>
-<barrio>SAN CRISTOBAL</barrio>
-<lugar>AAVV Río</lugar>
-<longitud>-1.7033153772354126</longitud>
-<latitud>37.687482141878249</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>5</idSubinstalacion>
-<uso>Pista de tamaño reducido</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>5</id>
+<id>60</id>
 <pedania>HOYA (LA)</pedania>
-<lugar>Junto colegio de La Hoya</lugar>
-<longitud>-1.5864729881286621</longitud>
-<latitud>37.714173356222439</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>16</idSubinstalacion>
-<uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>53</id>
-<barrio>SAN JOSE</barrio>
-<lugar>Colegio Alfonso X</lugar>
-<longitud>-1.7056542634963989</longitud>
-<latitud>37.665637524298965</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>6</idSubinstalacion>
-<uso>Pista polideportiva múltiple</uso>
-<cantidad>3</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>54</id>
-<barrio>SUTULLENA</barrio>
-<lugar>Avenida Sutullena</lugar>
-<longitud>-1.6977953910827637</longitud>
-<latitud>37.6613721378027</latitud>
+<lugar>Colegio nuevo de La Hoya</lugar>
+<longitud>-1.5864676237106323</longitud>
+<latitud>37.713744747124984</latitud>
 <subinstalaciones>
 <subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
@@ -922,39 +1228,15 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>55</id>
-<barrio>SANTIAGO</barrio>
-<lugar>I.E.S. Ramón Arcas Meca</lugar>
-<longitud>-1.6944533586502075</longitud>
-<latitud>37.676651921578276</latitud>
+<id>61</id>
+<pedania>ALMENDRICOS</pedania>
+<lugar>Colegio viejo Almendricos</lugar>
+<longitud>-1.7772048711776733</longitud>
+<latitud>37.47253169408453</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>3</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>30</id>
-<pedania>MORATA</pedania>
-<lugar>Frente colegio de Morata</lugar>
-<longitud>-1.4939314126968384</longitud>
-<latitud>37.58717746250602</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -984,39 +1266,6 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>68</id>
-<pedania>ALMENDRICOS</pedania>
-<lugar>Colegio nuevo Almendricos</lugar>
-<longitud>-1.7759817838668823</longitud>
-<latitud>37.469389634323754</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>67</id>
-<pedania>HOYA (LA)</pedania>
-<lugar>Colegio viejo de La Hoya</lugar>
-<longitud>-1.5958070755004883</longitud>
-<latitud>37.706976452711828</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
 <id>63</id>
 <pedania>COY</pedania>
 <lugar>Salida a Bullas</lugar>
@@ -1024,13 +1273,13 @@
 <latitud>37.949033256123755</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 <subinstalacion>
@@ -1060,12 +1309,17 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>60</id>
-<pedania>HOYA (LA)</pedania>
-<lugar>Colegio nuevo de La Hoya</lugar>
-<longitud>-1.5864676237106323</longitud>
-<latitud>37.713744747124984</latitud>
+<id>65</id>
+<pedania>PACA (LA)</pedania>
+<lugar>Colegio de La Paca</lugar>
+<longitud>-1.8343734741210938</longitud>
+<latitud>37.8684022326721</latitud>
 <subinstalaciones>
+<subinstalacion>
+<idSubinstalacion>1</idSubinstalacion>
+<uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
@@ -1088,39 +1342,34 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>52</id>
-<pedania>PURIAS</pedania>
-<lugar>Instituto de Purias</lugar>
-<longitud>-1.6713970899581909</longitud>
-<latitud>37.579677159421536</latitud>
+<id>67</id>
+<pedania>HOYA (LA)</pedania>
+<lugar>Colegio viejo de La Hoya</lugar>
+<longitud>-1.5958070755004883</longitud>
+<latitud>37.706976452711828</latitud>
 <subinstalaciones>
 <subinstalacion>
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
-<subinstalacion>
-<idSubinstalacion>18</idSubinstalacion>
-<uso>Pista de voleibol</uso>
-<cantidad>2</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>61</id>
+<id>68</id>
 <pedania>ALMENDRICOS</pedania>
-<lugar>Colegio viejo Almendricos</lugar>
-<longitud>-1.7772048711776733</longitud>
-<latitud>37.47253169408453</latitud>
+<lugar>Colegio nuevo Almendricos</lugar>
+<longitud>-1.7759817838668823</longitud>
+<latitud>37.469389634323754</latitud>
 <subinstalaciones>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>3</idSubinstalacion>
+<uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -1175,7 +1424,7 @@
 </instalacion>
 <instalacion>
 <id>71</id>
-<barrio>VIÑA (LA)</barrio>
+<pedania>VIÑA (LA)</pedania>
 <lugar>C.E.E. Pilar Soubrier</lugar>
 <longitud>-1.7105278372764587</longitud>
 <latitud>37.662871195224994</latitud>
@@ -1188,15 +1437,15 @@
 </subinstalaciones>
 </instalacion>
 <instalacion>
-<id>56</id>
-<pedania>PURIAS</pedania>
-<lugar>Junto instituto de Purias</lugar>
-<longitud>-1.671096682548523</longitud>
-<latitud>37.580110794180008</latitud>
+<id>72</id>
+<pedania>ALMENDRICOS</pedania>
+<lugar>Junto colegio nuevo de Almendricos</lugar>
+<longitud>-1.7767274379730225</longitud>
+<latitud>37.469234497023429</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>17</idSubinstalacion>
-<uso>Pabellón polivalente</uso>
+<idSubinstalacion>7</idSubinstalacion>
+<uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
 <cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
@@ -1217,7 +1466,7 @@
 </instalacion>
 <instalacion>
 <id>74</id>
-<barrio>PARROQUIAS ALTAS</barrio>
+<pedania>PARROQUIAS ALTAS</pedania>
 <lugar>San Pedro. Detrás del plan social</lugar>
 <longitud>-1.7045089602470398</longitud>
 <latitud>37.675754860287348</latitud>
@@ -1231,16 +1480,11 @@
 </instalacion>
 <instalacion>
 <id>75</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>Colegio Juan González</lugar>
 <longitud>-1.6890567541122437</longitud>
 <latitud>37.6857967900816</latitud>
 <subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>9</idSubinstalacion>
-<uso>Gimnasio</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
 <subinstalacion>
 <idSubinstalacion>1</idSubinstalacion>
 <uso>Vestuario</uso>
@@ -1251,24 +1495,29 @@
 <uso>Pista polideportiva</uso>
 <cantidad>2</cantidad>
 </subinstalacion>
+<subinstalacion>
+<idSubinstalacion>9</idSubinstalacion>
+<uso>Gimnasio</uso>
+<cantidad>1</cantidad>
+</subinstalacion>
 </subinstalaciones>
 </instalacion>
 <instalacion>
 <id>76</id>
-<barrio>SAN CRISTOBAL</barrio>
+<pedania>SAN CRISTOBAL</pedania>
 <lugar>I.E.S. Príncipe de Asturias</lugar>
 <longitud>-1.6897058486938477</longitud>
 <latitud>37.679121072873791</latitud>
 <subinstalaciones>
 <subinstalacion>
-<idSubinstalacion>20</idSubinstalacion>
-<uso>Modulo escolar nivel 2 (bc y vestuarios)</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
 <idSubinstalacion>6</idSubinstalacion>
 <uso>Pista polideportiva múltiple</uso>
 <cantidad>2</cantidad>
+</subinstalacion>
+<subinstalacion>
+<idSubinstalacion>20</idSubinstalacion>
+<uso>Modulo escolar nivel 2 (bc y vestuarios)</uso>
+<cantidad>1</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>
@@ -1293,7 +1542,7 @@
 </instalacion>
 <instalacion>
 <id>78</id>
-<barrio>SAN JOSE</barrio>
+<pedania>SAN JOSE</pedania>
 <lugar>Colegio Andrés García Soler</lugar>
 <longitud>-1.7062577605247498</longitud>
 <latitud>37.670109799198073</latitud>
@@ -1307,255 +1556,6 @@
 <idSubinstalacion>3</idSubinstalacion>
 <uso>Pista polideportiva</uso>
 <cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>42</id>
-<barrio>SANTIAGO</barrio>
-<lugar>Avenida de Santa Clara. Pista monopatín</lugar>
-<longitud>-1.6928778073283866</longitud>
-<latitud>37.677955305301346</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>21</idSubinstalacion>
-<uso>Pista de monopatín</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>6</id>
-<barrio>SAN CRISTOBAL</barrio>
-<lugar>Complejo Deportivo Europa</lugar>
-<longitud>-1.6888582706451416</longitud>
-<latitud>37.677373702407252</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>22</idSubinstalacion>
-<uso>Sala de tenis de mesa</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>23</idSubinstalacion>
-<uso>Circuitos deportivos</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>24</idSubinstalacion>
-<uso>Jacuzzi</uso>
-<cantidad>4</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>25</idSubinstalacion>
-<uso>Masaje deportivo</uso>
-<cantidad>4</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>26</idSubinstalacion>
-<uso>Pista de entrenamiento</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>27</idSubinstalacion>
-<uso>Sala de Judo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>11</idSubinstalacion>
-<uso>Piscina de competición</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>15</idSubinstalacion>
-<uso>Piscina de enseñanza</uso>
-<cantidad>3</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>28</idSubinstalacion>
-<uso>Aula para reuniones, proyecciones, cursos, etc.</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>29</idSubinstalacion>
-<uso>Sauna</uso>
-<cantidad>4</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>30</idSubinstalacion>
-<uso>Squash</uso>
-<cantidad>4</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>31</idSubinstalacion>
-<uso>Sala de musculación</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>32</idSubinstalacion>
-<uso>Pista transversal</uso>
-<cantidad>3</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>33</idSubinstalacion>
-<uso>Pista central</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>19</id>
-<barrio>SAN ANTONIO</barrio>
-<lugar>Complejo deportivo San Antonio</lugar>
-<longitud>-1.7113137245178223</longitud>
-<latitud>37.659386530192037</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>7</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>7</idSubinstalacion>
-<uso>Modulo escolar nivel 3 (bm y vestuarios)</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>15</idSubinstalacion>
-<uso>Piscina de enseñanza</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>12</idSubinstalacion>
-<uso>Piscina de chapoteo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>15</id>
-<barrio>SUTULLENA</barrio>
-<lugar>Avenida de Santa Clara. Pabellón Alamedas</lugar>
-<longitud>-1.6925168037414551</longitud>
-<latitud>37.668472221222018</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>16</idSubinstalacion>
-<uso>Modulo escolar nivel 4 (bm, vestuarios, gradas)</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>40</id>
-<barrio>SAN JOSE</barrio>
-<lugar>Pabellón de San José</lugar>
-<longitud>-1.7049944400787354</longitud>
-<latitud>37.66629147016841</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>29</idSubinstalacion>
-<uso>Sauna</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>31</idSubinstalacion>
-<uso>Sala de musculación</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>32</idSubinstalacion>
-<uso>Pista transversal</uso>
-<cantidad>3</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>33</idSubinstalacion>
-<uso>Pista central</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-</subinstalaciones>
-</instalacion>
-<instalacion>
-<id>26</id>
-<pedania>TORRECILLA</pedania>
-<lugar>Ciudad deportiva de La Torrecilla</lugar>
-<longitud>-1.7310762405395508</longitud>
-<latitud>37.644431853410921</latitud>
-<subinstalaciones>
-<subinstalacion>
-<idSubinstalacion>34</idSubinstalacion>
-<uso>Frontón</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>10</idSubinstalacion>
-<uso>Circuito de cross</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>35</idSubinstalacion>
-<uso>Rocódromo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>36</idSubinstalacion>
-<uso>Velódromo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>37</idSubinstalacion>
-<uso>Pista de atletismo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>1</idSubinstalacion>
-<uso>Vestuario</uso>
-<cantidad>5</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>15</idSubinstalacion>
-<uso>Piscina de enseñanza</uso>
-<cantidad>2</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>38</idSubinstalacion>
-<uso>Piscina polivalente</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>12</idSubinstalacion>
-<uso>Piscina de chapoteo</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>11</idSubinstalacion>
-<uso>Piscina de competición</uso>
-<cantidad>1</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>39</idSubinstalacion>
-<uso>Pista de tenis</uso>
-<cantidad>7</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>6</idSubinstalacion>
-<uso>Pista polideportiva múltiple</uso>
-<cantidad>2</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>3</idSubinstalacion>
-<uso>Pista polideportiva</uso>
-<cantidad>2</cantidad>
-</subinstalacion>
-<subinstalacion>
-<idSubinstalacion>4</idSubinstalacion>
-<uso>Fútbol</uso>
-<cantidad>2</cantidad>
 </subinstalacion>
 </subinstalaciones>
 </instalacion>

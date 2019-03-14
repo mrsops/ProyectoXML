@@ -186,8 +186,6 @@ public class ProyectoXml {
                     break;
             }
         } while (!opcion.equals("0"));
-
-
     }
 
 
@@ -207,7 +205,10 @@ public class ProyectoXml {
         System.out.println("6.-Introducir ruta destino del archivo xml (Solo nombre sin extension)");
         System.out.println("7.-Guardar el documento a XML");
         System.out.println("8.-Pasar Instalaciones deportivas a Base de datos");
-        System.out.println("9.-Pasar Instalaciones deportivas a Base de datos");
+        System.out.println("9.-Leer Instalaciones Deportivas de la base de datos Instalaciones deportivas a Base de datos");
+        System.out.println("10.-Insertar nueva Instalacion");
+        System.out.println("11.-Modificar Instalacion");
+        System.out.println("12.-Eliminar Instalacion");
         System.out.println("0. Salir");
     }
 
